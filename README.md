@@ -2,7 +2,7 @@
 
 The code based on Frontiers in Psychology submitted by Rick Dale, Alexia Galati, and others. Full citation:
 
-Dale, R., Galati, A., Alviar, C., Contreras Kallens, P., Ramirez-Aristizabal, A., Tabatabaeian, M., & Vinson, D. W. (resubmitted). Slow, Not Second: Interacting Timescales in Perspective-Taking. Frontiers in Psychology.
+Dale, R., Galati, A., Alviar, C., Contreras Kallens, P., Ramirez-Aristizabal, A., Tabatabaeian, M., & Vinson, D. W. (resubmitted). Slow, Not Second: Interacting Timescales in Perspective-Taking. 
 
 * **functions.R**. The core functions for running and plotting simulations.
 
