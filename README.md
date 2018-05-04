@@ -6,4 +6,4 @@ Dale, R., Galati, A., Alviar, C., Contreras Kallens, P., Ramirez-Aristizabal, A.
 
 * *functions.R* The core functions for running and plotting simulations.
 
-* *main.R* Calls functions in functions.R and generates full range of figures from paper (in *sim_figures*)
+* *model.R* Calls functions in functions.R and generates full range of figures from paper (in *sim_figures*)
