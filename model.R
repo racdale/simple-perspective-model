@@ -8,6 +8,7 @@
 library(ggplot2)
 library(grid)
 library(cowplot)
+source('functions.R')
 
 setwd('~/Dropbox/new.projects/galati.perspective.review/simulation/')
 
@@ -55,7 +56,7 @@ u_x = .2
 k_x = 0 # tilt of systems
 k_y = 0
 sigm = .01 # noise impulse
-alph = .01 # how much they influence each other, as in equations
+alph = .01 # how much they influence each other, as in Eq. 3
 bet = .01
 
 pdf(file='sim_figures/2_state_well_equibiased.pdf',height=7,width=7)

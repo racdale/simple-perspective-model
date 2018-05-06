@@ -82,7 +82,12 @@ run_sim = function(u_x,u_y,k_x,k_y,sigm,alph,bet,vectorField,potentialXP,potenti
     #points(xy[nrow(xy),1],xy[nrow(xy),2],pch=ix+15,cex=2,col='red')
   }
   choice_txt = abs((choices-1)/2)+1 # flips to Ego = 2, Other = 1
-  histoResponse = ggplot(data.frame(perspective=as.factor(c('Other','Ego')[choice_txt])), aes(perspective))+geom_bar()
+  dt = data.frame(ct=1,perspective=as.factor(c('Other','Ego')[choice_txt]))
+  dt = rbind(dt,data.frame(ct=0,perspective='Other')) # in case it's 100% on the other side...
+  dt = rbind(data.frame(ct=0,perspective='Ego'),dt) # ... we get a 0 bar
+  dt = aggregate(dt$ct,by=list(dt$perspective),sum)
+  
+  histoResponse = ggplot(data=dt, aes(x=Group.1,y=x))+geom_point(size=5,pch=15)+xlab('Perspective')+ylab('Trial count')+ylim(0,50)
   
   return(list(vectorField,potentialXP,potentialXS,histoResponse))
   
