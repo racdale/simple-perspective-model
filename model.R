@@ -1,16 +1,19 @@
 #########################################################################
 #
 # coded by Rick Dale 
-# Based on Duran and Dale (2014) and as part of Dale, Galati et al., Frontiers Submission
+# Based on Duran and Dale (2014) and as part of Dale, Galati et al., Frontiers oaoer:
+# Dale, R., Galati, A., Alviar, C., Kallens, P. A. C., 
+#     Ramirez-Aristizabal, A., Tabatabaeian, M. & Vinson, D. W. (2018). Interacting timescales in 
+#     perspective-taking. Frontiers in Psychology.
 #
 #########################################################################
 
 library(ggplot2)
 library(grid)
 library(cowplot)
-source('functions.R')
 
 setwd('~/Dropbox/new.projects/galati.perspective.review/simulation/')
+source('functions.R')
 
 ###
 # Figure of 1 state variable potential wells

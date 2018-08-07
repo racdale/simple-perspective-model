@@ -1,3 +1,13 @@
+#########################################################################
+#
+# coded by Rick Dale 
+# Based on Duran and Dale (2014) and as part of Dale, Galati et al., Frontiers oaoer:
+# Dale, R., Galati, A., Alviar, C., Kallens, P. A. C., 
+#     Ramirez-Aristizabal, A., Tabatabaeian, M. & Vinson, D. W. (2018). Interacting timescales in 
+#     perspective-taking. Frontiers in Psychology.
+#
+#########################################################################
+
 ### creates ggplot grid for main figures
 run_and_plot = function(u_x,u_y,k_x,k_y,sigm,alph,bet) {
   
