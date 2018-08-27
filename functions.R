@@ -1,7 +1,7 @@
 #########################################################################
 #
-# coded by Rick Dale 
-# Based on Duran and Dale (2014) and as part of Dale, Galati et al., Frontiers oaoer:
+# coded by Rick Dale; any errors are attributable to him.
+# Based on Duran and Dale (2014) and as part of Dale, Galati et al., Frontiers paper:
 # Dale, R., Galati, A., Alviar, C., Kallens, P. A. C., 
 #     Ramirez-Aristizabal, A., Tabatabaeian, M. & Vinson, D. W. (2018). Interacting timescales in 
 #     perspective-taking. Frontiers in Psychology.
